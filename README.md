@@ -1,4 +1,4 @@
-# vPersonal portfolio website
+# Personal portfolio website
 
 This is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
@@ -24,7 +24,8 @@ Windows:
 ```bash
 git clone git@github.com:kipngenohaaron/Personal_Portfolio_Website.git
 ```
-
+## Live Link;
+https://kipngenohaaron.github.io/Personal_Portfolio_Website/
 ## Contact
 
 If you want to contact me you can reach me through;
