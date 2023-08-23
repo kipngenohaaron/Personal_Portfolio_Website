@@ -138,6 +138,7 @@ button {
   border: none;
   text-align: left;
   cursor: pointer;
+ 
 }
 
 input, textarea {
@@ -1216,7 +1217,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled {
   opacity: 0.7;
-  cursor: not-allowed;
+  cursor: pointer;
+  background-color: whitesmoke;
 }
 
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
@@ -1639,6 +1641,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .form-btn {
     width: max-content;
     margin-left: auto;
+    
   }
   
 }
