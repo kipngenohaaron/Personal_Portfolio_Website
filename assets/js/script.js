@@ -157,3 +157,19 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// <!-- Add JavaScript to handle toggling the visibility of additional details -->
+
+const toggleButtons = document.querySelectorAll('.toggle-button');
+  
+toggleButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const details = button.nextElementSibling;
+    if (details.style.display === 'none' || details.style.display === '') {
+      details.style.display = 'block';
+      button.textContent = 'Hide Details';
+    } else {
+      details.style.display = 'none';
+      button.textContent = 'Show Details';
+    }
+  });
+});

@@ -831,6 +831,17 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+.toggle-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #87f765;
+}
 
 
 /**
