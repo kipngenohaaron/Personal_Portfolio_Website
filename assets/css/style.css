@@ -1118,6 +1118,14 @@ main {
 }
 
 
+  /* Style for the copyright notice */
+  .copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #666; /* You can adjust the color to your preference */
+    margin-top: 20px; /* Add margin to separate it from the content above */
+  }
+
 
 
 
